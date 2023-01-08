@@ -5,6 +5,6 @@ export function fetchCountries(findCountry) {
     if (!response.ok) {
       throw new Error(response.status);
     }
-    
+    return response.json();
   });
 }
