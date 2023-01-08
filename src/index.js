@@ -80,7 +80,7 @@ function chooseCountry(countries) {
     Notiflix.Notify.warning(
       'Too many matches found. Please enter a more specific name.',
       {
-        timeout: timeOut,
+        timeout: TIME_OUT,
       }
     );
   }
